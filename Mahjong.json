@@ -1,0 +1,116 @@
+{
+  "tile": [
+    {
+      "order": 1,
+      "type": "flower",
+      "joker": false,
+      "name": "Cat",
+      "direction": 0
+    },
+    {
+      "order": 2,
+      "type": "flower",
+      "joker": false,
+      "name": "Rat",
+      "direction": 0
+    },
+    {
+      "order": 3,
+      "type": "flower",
+      "joker": false,
+      "name": "Roster",
+      "direction": 0
+    },
+    {
+      "order": 4,
+      "type": "flower",
+      "joker": false,
+      "name": "Centipede",
+      "direction": 0
+    },
+    {
+      "order": 5,
+      "type": "flower",
+      "joker": false,
+      "name": "Clown 1",
+      "direction": 0
+    },
+    {
+      "order": 6,
+      "type": "flower",
+      "joker": false,
+      "name": "Clown 2",
+      "direction": 0
+    },
+    {
+      "order": 7,
+      "type": "flower",
+      "joker": false,
+      "name": "Clown 3",
+      "direction": 0
+    },
+    {
+      "order": 8,
+      "type": "flower",
+      "joker": false,
+      "name": "Clown 4",
+      "direction": 0
+    },
+    {
+      "order": 9,
+      "type": "flower",
+      "joker": false,
+      "name": "Spring",
+      "direction": 1
+    },
+    {
+      "order": 10,
+      "type": "flower",
+      "joker": false,
+      "name": "Summer",
+      "direction": 2
+    },
+    {
+      "order": 11,
+      "type": "flower",
+      "joker": false,
+      "name": "Autumn",
+      "direction": 3
+    },
+    {
+      "order": 12,
+      "type": "flower",
+      "joker": false,
+      "name": "Winter",
+      "direction": 0
+    },
+    {
+      "order": 13,
+      "type": "flower",
+      "joker": false,
+      "name": "Plum",
+      "direction": 1
+    },
+    {
+      "order": 14,
+      "type": "flower",
+      "joker": false,
+      "name": "Orchid",
+      "direction": 2
+    },
+    {
+      "order": 15,
+      "type": "flower",
+      "joker": false,
+      "name": "Chrysanthemum",
+      "direction": 3
+    },
+    {
+      "order": 16,
+      "type": "flower",
+      "joker": false,
+      "name": "Bamboo",
+      "direction": 0
+    }
+  ]
+}
