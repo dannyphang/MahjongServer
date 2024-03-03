@@ -1,116 +1,682 @@
 {
+  "playersCount": 3,
   "tile": [
     {
       "order": 1,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Cat",
+      "code": "cat",
       "direction": 0
     },
     {
       "order": 2,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Rat",
+      "code": "rat",
       "direction": 0
     },
     {
       "order": 3,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
-      "name": "Roster",
+      "name": "Rooster",
+      "code": "rooster",
       "direction": 0
     },
     {
       "order": 4,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Centipede",
+      "code": "centipede",
       "direction": 0
     },
     {
       "order": 5,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Clown 1",
+      "code": "clown_1",
       "direction": 0
     },
     {
       "order": 6,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Clown 2",
+      "code": "clown_2",
       "direction": 0
     },
     {
       "order": 7,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Clown 3",
+      "code": "clown_1",
       "direction": 0
     },
     {
       "order": 8,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Clown 4",
+      "code": "clown_2",
       "direction": 0
     },
     {
       "order": 9,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Spring",
+      "code": "spring",
       "direction": 1
     },
     {
       "order": 10,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Summer",
+      "code": "summer",
       "direction": 2
     },
     {
       "order": 11,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Autumn",
+      "code": "autumn",
       "direction": 3
     },
     {
       "order": 12,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Winter",
+      "code": "winter",
       "direction": 0
     },
     {
       "order": 13,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Plum",
+      "code": "plum",
       "direction": 1
     },
     {
       "order": 14,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Orchid",
+      "code": "orchid",
       "direction": 2
     },
     {
       "order": 15,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Chrysanthemum",
+      "code": "chrysanthemum",
       "direction": 3
     },
     {
       "order": 16,
-      "type": "flower",
+      "type": "Flower",
       "joker": false,
       "name": "Bamboo",
+      "code": "bamboo",
+      "direction": 0
+    },
+    {
+      "order": 17,
+      "type": "joker",
+      "joker": true,
+      "name": "Joker",
+      "code": "joker",
+      "direction": 0
+    },
+    {
+      "order": 17,
+      "type": "joker",
+      "joker": true,
+      "name": "Joker",
+      "code": "joker",
+      "direction": 0
+    },
+    {
+      "order": 17,
+      "type": "joker",
+      "joker": true,
+      "name": "Joker",
+      "code": "joker",
+      "direction": 0
+    },
+    {
+      "order": 17,
+      "type": "joker",
+      "joker": true,
+      "name": "Joker",
+      "code": "joker",
+      "direction": 0
+    },
+    {
+      "order": 18,
+      "type": "Circles",
+      "joker": false,
+      "name": "1 Circle",
+      "code": "circle_1",
+      "direction": 0
+    },
+    {
+      "order": 19,
+      "type": "Circles",
+      "joker": false,
+      "name": "2 Circle",
+      "code": "circle_2",
+      "direction": 0
+    },
+    {
+      "order": 20,
+      "type": "Circles",
+      "joker": false,
+      "name": "3 Circle",
+      "code": "circle_3",
+      "direction": 0
+    },
+    {
+      "order": 21,
+      "type": "Circles",
+      "joker": false,
+      "name": "4 Circle",
+      "code": "circle_4",
+      "direction": 0
+    },
+    {
+      "order": 22,
+      "type": "Circles",
+      "joker": false,
+      "name": "5 Circle",
+      "code": "circle_5",
+      "direction": 0
+    },
+    {
+      "order": 23,
+      "type": "Circles",
+      "joker": false,
+      "name": "6 Circle",
+      "code": "circle_6",
+      "direction": 0
+    },
+    {
+      "order": 24,
+      "type": "Circles",
+      "joker": false,
+      "name": "7 Circle",
+      "code": "circle_7",
+      "direction": 0
+    },
+    {
+      "order": 25,
+      "type": "Circles",
+      "joker": false,
+      "name": "8 Circle",
+      "code": "circle_8",
+      "direction": 0
+    },
+    {
+      "order": 26,
+      "type": "Circles",
+      "joker": false,
+      "name": "9 Circle",
+      "code": "circle_9",
+      "direction": 0
+    },
+    {
+      "order": 27,
+      "type": "Winds",
+      "joker": false,
+      "name": "East",
+      "code": "east",
+      "direction": 1
+    },
+    {
+      "order": 28,
+      "type": "Winds",
+      "joker": false,
+      "name": "South",
+      "code": "south",
+      "direction": 2
+    },
+    {
+      "order": 29,
+      "type": "Winds",
+      "joker": false,
+      "name": "West",
+      "code": "west",
+      "direction": 3
+    },
+    {
+      "order": 30,
+      "type": "Winds",
+      "joker": false,
+      "name": "North",
+      "code": "north",
+      "direction": 0
+    },
+    {
+      "order": 31,
+      "type": "Dragons",
+      "joker": false,
+      "name": "Red",
+      "code": "red",
+      "direction": 0
+    },
+    {
+      "order": 32,
+      "type": "Dragons",
+      "joker": false,
+      "name": "Green",
+      "code": "green",
+      "direction": 0
+    },
+    {
+      "order": 33,
+      "type": "Dragons",
+      "joker": false,
+      "name": "White",
+      "code": "white",
+      "direction": 0
+    },
+    {
+      "order": 18,
+      "type": "Circles",
+      "joker": false,
+      "name": "1 Circle",
+      "code": "circle_1",
+      "direction": 0
+    },
+    {
+      "order": 19,
+      "type": "Circles",
+      "joker": false,
+      "name": "2 Circle",
+      "code": "circle_2",
+      "direction": 0
+    },
+    {
+      "order": 20,
+      "type": "Circles",
+      "joker": false,
+      "name": "3 Circle",
+      "code": "circle_3",
+      "direction": 0
+    },
+    {
+      "order": 21,
+      "type": "Circles",
+      "joker": false,
+      "name": "4 Circle",
+      "code": "circle_4",
+      "direction": 0
+    },
+    {
+      "order": 22,
+      "type": "Circles",
+      "joker": false,
+      "name": "5 Circle",
+      "code": "circle_5",
+      "direction": 0
+    },
+    {
+      "order": 23,
+      "type": "Circles",
+      "joker": false,
+      "name": "6 Circle",
+      "code": "circle_6",
+      "direction": 0
+    },
+    {
+      "order": 24,
+      "type": "Circles",
+      "joker": false,
+      "name": "7 Circle",
+      "code": "circle_7",
+      "direction": 0
+    },
+    {
+      "order": 25,
+      "type": "Circles",
+      "joker": false,
+      "name": "8 Circle",
+      "code": "circle_8",
+      "direction": 0
+    },
+    {
+      "order": 26,
+      "type": "Circles",
+      "joker": false,
+      "name": "9 Circle",
+      "code": "circle_9",
+      "direction": 0
+    },
+    {
+      "order": 27,
+      "type": "Winds",
+      "joker": false,
+      "name": "East",
+      "code": "east",
+      "direction": 1
+    },
+    {
+      "order": 28,
+      "type": "Winds",
+      "joker": false,
+      "name": "South",
+      "code": "south",
+      "direction": 2
+    },
+    {
+      "order": 29,
+      "type": "Winds",
+      "joker": false,
+      "name": "West",
+      "code": "west",
+      "direction": 3
+    },
+    {
+      "order": 30,
+      "type": "Winds",
+      "joker": false,
+      "name": "North",
+      "code": "north",
+      "direction": 0
+    },
+    {
+      "order": 31,
+      "type": "Dragons",
+      "joker": false,
+      "name": "Red",
+      "code": "red",
+      "direction": 0
+    },
+    {
+      "order": 32,
+      "type": "Dragons",
+      "joker": false,
+      "name": "Green",
+      "code": "green",
+      "direction": 0
+    },
+    {
+      "order": 33,
+      "type": "Dragons",
+      "joker": false,
+      "name": "White",
+      "code": "white",
+      "direction": 0
+    },
+    {
+      "order": 18,
+      "type": "Circles",
+      "joker": false,
+      "name": "1 Circle",
+      "code": "circle_1",
+      "direction": 0
+    },
+    {
+      "order": 19,
+      "type": "Circles",
+      "joker": false,
+      "name": "2 Circle",
+      "code": "circle_2",
+      "direction": 0
+    },
+    {
+      "order": 20,
+      "type": "Circles",
+      "joker": false,
+      "name": "3 Circle",
+      "code": "circle_3",
+      "direction": 0
+    },
+    {
+      "order": 21,
+      "type": "Circles",
+      "joker": false,
+      "name": "4 Circle",
+      "code": "circle_4",
+      "direction": 0
+    },
+    {
+      "order": 22,
+      "type": "Circles",
+      "joker": false,
+      "name": "5 Circle",
+      "code": "circle_5",
+      "direction": 0
+    },
+    {
+      "order": 23,
+      "type": "Circles",
+      "joker": false,
+      "name": "6 Circle",
+      "code": "circle_6",
+      "direction": 0
+    },
+    {
+      "order": 24,
+      "type": "Circles",
+      "joker": false,
+      "name": "7 Circle",
+      "code": "circle_7",
+      "direction": 0
+    },
+    {
+      "order": 25,
+      "type": "Circles",
+      "joker": false,
+      "name": "8 Circle",
+      "code": "circle_8",
+      "direction": 0
+    },
+    {
+      "order": 26,
+      "type": "Circles",
+      "joker": false,
+      "name": "9 Circle",
+      "code": "circle_9",
+      "direction": 0
+    },
+    {
+      "order": 27,
+      "type": "Winds",
+      "joker": false,
+      "name": "East",
+      "code": "east",
+      "direction": 1
+    },
+    {
+      "order": 28,
+      "type": "Winds",
+      "joker": false,
+      "name": "South",
+      "code": "south",
+      "direction": 2
+    },
+    {
+      "order": 29,
+      "type": "Winds",
+      "joker": false,
+      "name": "West",
+      "code": "west",
+      "direction": 3
+    },
+    {
+      "order": 30,
+      "type": "Winds",
+      "joker": false,
+      "name": "North",
+      "code": "north",
+      "direction": 0
+    },
+    {
+      "order": 31,
+      "type": "Dragons",
+      "joker": false,
+      "name": "Red",
+      "code": "red",
+      "direction": 0
+    },
+    {
+      "order": 32,
+      "type": "Dragons",
+      "joker": false,
+      "name": "Green",
+      "code": "green",
+      "direction": 0
+    },
+    {
+      "order": 33,
+      "type": "Dragons",
+      "joker": false,
+      "name": "White",
+      "code": "white",
+      "direction": 0
+    },
+    {
+      "order": 18,
+      "type": "Circles",
+      "joker": false,
+      "name": "1 Circle",
+      "code": "circle_1",
+      "direction": 0
+    },
+    {
+      "order": 19,
+      "type": "Circles",
+      "joker": false,
+      "name": "2 Circle",
+      "code": "circle_2",
+      "direction": 0
+    },
+    {
+      "order": 20,
+      "type": "Circles",
+      "joker": false,
+      "name": "3 Circle",
+      "code": "circle_3",
+      "direction": 0
+    },
+    {
+      "order": 21,
+      "type": "Circles",
+      "joker": false,
+      "name": "4 Circle",
+      "code": "circle_4",
+      "direction": 0
+    },
+    {
+      "order": 22,
+      "type": "Circles",
+      "joker": false,
+      "name": "5 Circle",
+      "code": "circle_5",
+      "direction": 0
+    },
+    {
+      "order": 23,
+      "type": "Circles",
+      "joker": false,
+      "name": "6 Circle",
+      "code": "circle_6",
+      "direction": 0
+    },
+    {
+      "order": 24,
+      "type": "Circles",
+      "joker": false,
+      "name": "7 Circle",
+      "code": "circle_7",
+      "direction": 0
+    },
+    {
+      "order": 25,
+      "type": "Circles",
+      "joker": false,
+      "name": "8 Circle",
+      "code": "circle_8",
+      "direction": 0
+    },
+    {
+      "order": 26,
+      "type": "Circles",
+      "joker": false,
+      "name": "9 Circle",
+      "code": "circle_9",
+      "direction": 0
+    },
+    {
+      "order": 27,
+      "type": "Winds",
+      "joker": false,
+      "name": "East",
+      "code": "east",
+      "direction": 1
+    },
+    {
+      "order": 28,
+      "type": "Winds",
+      "joker": false,
+      "name": "South",
+      "code": "south",
+      "direction": 2
+    },
+    {
+      "order": 29,
+      "type": "Winds",
+      "joker": false,
+      "name": "West",
+      "code": "west",
+      "direction": 3
+    },
+    {
+      "order": 30,
+      "type": "Winds",
+      "joker": false,
+      "name": "North",
+      "code": "north",
+      "direction": 0
+    },
+    {
+      "order": 31,
+      "type": "Dragons",
+      "joker": false,
+      "name": "Red",
+      "code": "red",
+      "direction": 0
+    },
+    {
+      "order": 32,
+      "type": "Dragons",
+      "joker": false,
+      "name": "Green",
+      "code": "green",
+      "direction": 0
+    },
+    {
+      "order": 33,
+      "type": "Dragons",
+      "joker": false,
+      "name": "White",
+      "code": "white",
       "direction": 0
     }
-  ]
+  ],
+  "minPoint": 5,
+  "maxPoint": 10,
+  "defaultHandTilesCount": 13,
+  "drawTilesPileCount": 14,
+  "actions": ["Pong", "Kong", "Chow", "Win", "Draw", "Discard"]
 }
