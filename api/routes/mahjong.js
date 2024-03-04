@@ -1,7 +1,7 @@
-const express = require("express");
-const router = express.Router();
-const fs = require("fs");
-const mahjongSet = JSON.parse(fs.readFileSync("./Mahjong.json"));
+import { Router } from "express";
+const router = Router();
+import { readFileSync } from "fs";
+const mahjongSet = JSON.parse(readFileSync("./Mahjong.json"));
 
 router.get("/", (req, res, next) => {
   res.status(200).json(mahjongSet);
@@ -39,4 +39,4 @@ router.delete("/:mahjongId", (req, res, next) => {
   });
 });
 
-module.exports = router;
+export default router;
